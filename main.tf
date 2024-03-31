@@ -17,3 +17,4 @@ resource "google_compute_network" "vpc_network" {
   name                    = "vpc-githubActions"
   auto_create_subnetworks = "false"
 }
+
