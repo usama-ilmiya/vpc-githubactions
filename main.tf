@@ -8,7 +8,7 @@
 #}
 
 provider "google" {
-  credentials = file("/home/usama/Downloads/gmzdev-f3ac397c9141.json")
+  credentials = file("/home/usama/Downloads/personal_gcp_key/gmzdev-f3ac397c9141.json")
   project     = "gmzdev"
   region      = "us-central1"
 }
