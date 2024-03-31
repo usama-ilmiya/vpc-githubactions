@@ -6,6 +6,7 @@
 #    }
 #  }
 #}
+
 provider "google" {
   credentials = file("/home/usama/Downloads/gmzdev-450117b05ad8.json")
   project     = "gmzdev"
